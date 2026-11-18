@@ -220,6 +220,7 @@ if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.23)
                 api/tt-umd/utils/semver.hpp
                 api/tt-umd/utils/kmd_mutex.hpp
                 api/tt-umd/utils/noc_cleanup_write.hpp
+                api/tt-umd/cluster_description.hpp
                 api/tt-umd/cluster_descriptor.hpp
                 api/tt-umd/types/core_coordinates.hpp
                 api/tt-umd/tt_device/tt_device.hpp
