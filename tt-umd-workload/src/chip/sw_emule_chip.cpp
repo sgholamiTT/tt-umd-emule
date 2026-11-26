@@ -684,7 +684,7 @@ void SWEmuleChip::close_device() {}
 
 TTDevice* SWEmuleChip::get_tt_device() { return tt_device_.get(); }
 
-SysmemManager* SWEmuleChip::get_sysmem_manager() { return sysmem_manager_.get(); }
+SystemMemoryAllocator* SWEmuleChip::get_system_memory_allocator() { return sysmem_manager_.get(); }
 
 // --- Host memory: the cluster's host channels, as a simulated chip has them ---
 
